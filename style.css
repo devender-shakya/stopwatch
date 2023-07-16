@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(61, 58, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+#container{
+    color: #d7dfe4; 
+
+}
+
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn{
+    padding: 8px 33px;
+    font-size: 26px;
+    margin: 2px 10px;
+    color: rgb(14, 13, 3);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 19px;
+}
+
+#start{
+    background-color: #41e241e8;
+}
+#stop{
+    background-color: #ab5ef3f0;
+}
+#reset{
+    background-color: #ef3c3ceb;
+}
